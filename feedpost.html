@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FontAwesome/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-light bg-light" style="box-shadow: darkgray 1px 1px 1px 1px;">
+        <div class="container">
+            <a class="navbar-brand" href="#"
+                style="font-family: 'Lobster', cursive; font-weight: bold; color: darkgray;">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <div class="row">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-cog" style="color: darkgray;"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                        <button class="dropdown-item" type="button" style="border-top: darkgray 1px solid;">Log
+                            Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-light justify-content-center" style="box-shadow: gray 1px 1px 1px 1px; margin-top: 55px;">
+        <form class="form-inline">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active btn-outline-secondary" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true"><i class="fas fa-th"></i></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link btn-outline-secondary" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false"><i class="fas fa-square"></i></a>
+                </li>
+            </ul>
+        </form>
+    </nav>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <section id="galeria" class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 1.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 2.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 3.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 4.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 5.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme9.gif"></video>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 6.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 7.jpg">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="meme 8.jpg">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 3.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 4.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 5.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts video</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme9.gif" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 6.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 7.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 40%; margin-left: 30%; margin-top: 50px;">
+                <div class="card-header" id="cardhead">
+                    <h4>My firts photo</h4>
+                    <p>12/14</p>
+                </div>
+                <img src="meme 8.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0">
+                    <h5 class="card-title px-2">23 Likes</h5>
+                    <p class="card-text px-2">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <div class="container">
+                        <div id="botonesinfernales">
+                            <div>
+                                <button type="button" class="btn"><i class="far fa-heart"></i></button>
+                                <input type="comment" class="form-control inline-block" id="inputcomment"
+                                    placeholder="Comment...">
+                            </div>
+                            <button type="button" class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label"></label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                            <div class="container" style="margin-top: 20px;">
+                                <button type="button" class="btn btn-outline-dark"><i
+                                        class="fas fa-camera"></i></button>
+                                <button type="button" class="btn btn-outline-dark"><i
+                                        class="fas fa-map-marker-alt"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,21 @@
+#galeria .col-lg-4{
+    padding-top: 25px;
+}
+#galeria img{
+    width: 100%;
+}
+#cardhead{
+    display: flex;
+    justify-content: space-between;
+}
+#inputcomment{
+    display: inline-block;
+    width: 181px;
+}
+#botonesinfernales{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-tabs{
+    border:#dee2e6 1px solid
+}
